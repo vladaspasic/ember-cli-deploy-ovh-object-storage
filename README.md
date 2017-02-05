@@ -51,30 +51,37 @@ For detailed information on how configuration of plugins works, please refer to 
 
 ### endpoint (`required`)
 This property is used by [node-ovh](https://github.com/ovh/node-ovh) plugin which specifies which API you wish to use.
+
 *Default:* 'undefined'
 
 ### appKey (`required`)
 Used to identify your OVH Application, please refer to the [OVH API Documentation][1]
+
 *Default:* 'undefined'
 
 ### appSecret (`required`)
 Used to identify your OVH Application, please refer to the [OVH API Documentation][1]
+
 *Default:* 'undefined'
 
 ### consumerKey (`required`)
 Your authentication token obtained from OVH, please refer to the [OVH API Documentation][1]
+
 *Default:* 'undefined'
 
 ### serviceName (`required`)
 Service name is an actual ID of your running OVH Cloud service where the static Object Storage container is used.
+
 *Default:* 'undefined'
 
 ### container (`required`)
 Name of your Object Storage container where the assets should be uploaded
+
 *Default:* 'undefined'
 
 ### region (`required`)
 Location where your container is hosted
+
 *Default:* 'undefined'
 
 ### filePattern
@@ -84,10 +91,12 @@ Files that match this pattern will be uploaded. The file pattern must be relativ
 
 ### prefix
 A prefix added to the files that the files should be uploaded.
+
 *Default:* `''`
 
 ### gzipped
 If this is set to true, the uploader would try to upload `gzippedFiles` list to your container.
+
 *Default:* `false`
 
 ### distDir
