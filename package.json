@@ -1,6 +1,6 @@
 {
   "name": "ember-cli-deploy-ovh-object-storage",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "An ember-cli-deploy plugin to upload assets to OVH Object Storage",
   "keywords": [
     "ember-addon",
