@@ -117,7 +117,7 @@ This manifest file will be used to work out which files don't exist on your cont
 ## Running Tests
 
 - `npm test`
-- 
+
 [1]: https://api.ovh.com/g934.first_step_with_api
 [2]: https://github.com/ember-cli-deploy/ember-cli-deploy-build "ember-cli-deploy-build"
 [3]: https://github.com/lukemelia/ember-cli-deploy-gzip "ember-cli-deploy-gzip"
