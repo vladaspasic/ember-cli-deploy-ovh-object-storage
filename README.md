@@ -2,7 +2,7 @@
 
 > An ember-cli-deploy plugin to upload files to OVH Object Storage
 
-[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-s3.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/)
+[![](https://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/plugins/ember-cli-deploy-s3.svg)](http://ember-cli-deploy.github.io/ember-cli-deploy-version-badges/) [![Build Status](https://travis-ci.org/vladaspasic/ember-cli-deploy-ovh-object-storage.svg?branch=master)](https://travis-ci.org/vladaspasic/ember-cli-deploy-ovh-object-storage)
 
 This plugin uploads assets to your static OVH Object Storage container using [node-ovh](https://github.com/ovh/node-ovh).
 
